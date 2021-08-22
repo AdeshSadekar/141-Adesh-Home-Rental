@@ -5,11 +5,12 @@
      background-color: rgb(66, 66, 66);
      text-decoration-color: white;
 }
+
 .navbar-brand {
      font-family: 'Roboto Slab', serif;
-     font-size: xx-large;
-     
+     font-size: xx-large;  
 }
+
 .types {
      width: auto;
      height: 720px;
@@ -32,7 +33,7 @@
      border-radius: 30px; 
 }
 
-option,select {
+option, select {
      color: black;
 }
 
@@ -61,6 +62,7 @@ label {
      border-radius: 30px;
      text-align: center;
 }
+
 .tagline {
      text-align: center;
      font-family: "Brush Script MT";
@@ -68,8 +70,7 @@ label {
      padding-top: 400px;
 }
 
-.footer-dark .item.social > a {
-     
+.footer-dark .item .social > a {
      font-size:20px;
      width:36px;
      height:36px;
@@ -80,36 +81,37 @@ label {
      margin:0 20px;
      opacity:0.75;
      background-color: white;
-   }
+}
    
-   .footer-dark .item.social > a:hover {
+.footer-dark .item.social > a:hover {
      opacity:0.9;
-   }
+}
    
-   .footer-dark {
-        padding-bottom: 5px;
-        margin-right: 0px;
-        padding-left: 180px;
-        background-color: rgb(48, 47, 47);
-        color: white;
-        text-decoration: white;
-        font-family: 'Roboto Slab', serif;
-        
-   }
-   a:link {
+.footer-dark {
+     padding-bottom: 5px;
+     margin-right: 0px;
+     padding-left: 180px;
+     background-color: rgb(48, 47, 47);
+     color: white;
+     text-decoration: white;
+     font-family: 'Roboto Slab', serif;
+}
+
+a:link {
      color: rgb(158, 158, 158);
      background-color: transparent;
      text-decoration: none;
-   }
-   .copyright { 
-        padding-top: 20px;
-        color: rgb(158, 158, 158);
-        padding-left: 500px;
-        font-family: 'Roboto Slab', serif;
-   }
+}
 
-   a:hover {
+.copyright { 
+     padding-top: 20px;
+     color: rgb(158, 158, 158);
+     padding-left: 500px;
+     font-family: 'Roboto Slab', serif;
+}
+
+a:hover {
      color: white;
      background-color: transparent;
-   }
+}
 
